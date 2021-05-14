@@ -10,6 +10,12 @@ void main() {
       appBar: AppBar(
         title: Text(message),
       ),
+      body: Center(
+        child: Text("Gövde Kısım"),
+      ),
+      bottomNavigationBar: Text(
+        "TESTS"
+      ),
     ),
   ));
 }
